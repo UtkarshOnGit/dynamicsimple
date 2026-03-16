@@ -10,7 +10,7 @@ const app = express();
 
 // 2. Logic to prevent the crash
 const MONGO_URI = process.env.MONGODB_URI;
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 1337;
 
 if (!MONGO_URI) {
     console.error("FATAL ERROR: MONGODB_URI is not defined in environment variables.");
